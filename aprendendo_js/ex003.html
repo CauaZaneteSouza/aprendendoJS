@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual o seu nome?");
+        document.write(`Olá , <strong>${nome}</strong>! Seu nome tem ${nome.length} letras`);
+        document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()}`);
+        document.write(`Seu nome em letras minúsculas é ${nome.toLowerCase()}`);
+        /*para colocar duas casas decimais no JS temos que colocar o seguinte código: "var n1 = 1545.5
+                                                                                         n1.toFixed(2)
+        agora para trocar o "." pela "," o código é o seguinte "n1.toFixed(2).replace(".", ",")"
+        para colocar esse valor como salário o código é o seguinte "n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'})"
+                                                                                         */ 
+        
+    </script>
+</body>
+</html>
